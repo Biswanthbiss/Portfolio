@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Hey, Guys This Personal Portfolio Website of Biswanth"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="Biswanth\src\img\biswanth.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="src/input.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="/src/index.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://css.gg/attachment.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <title>Portfolio: Biswanth</title>
+  </head>
+
+  <body class="bg-slate-900 font-[Poppins]">
+    <!-- Navbar -->
+
+    <nav
+      class="flex md:flex-row items-center justify-between md:justify-around font-bold text-white p-3 lg:sticky lg:top-0 z-30 shadow-sm shadow-slate-300 bg-slate-900"
+    >
+      <div class="">
+        <a
+          href="https://drive.google.com/file/d/1uk7YTnUZ19z_powAJUUWQK60QCCpx3hL/view?usp=drivesdk "
+        >
+          <img
+            src="./src/img/biswanth.png"
+            alt="Biswanth"
+            class="w-8 lg:w-12 ml-2 rounded-full shadow-sm shadow-teal-400"
+        /></a>
+      </div>
+
+      <ul
+        class="bg-slate-900 duration-300 ease-in-out flex flex-col md:flex-row items-center justify-center xl:mr-8 absolute md:static h-[100vh] md:h-auto w-full md:w-auto left-0 top-[-150%] z-50 uppercase md:bg-transparent max-sm:text-3xl"
+      >
+        <li
+          class="m-4 lg:mx-4 my-6 md:my-0 hover:scale-105 duration-300 hover:text-teal-400"
+        >
+          <a href="#">Home</a>
+        </li>
+        <li
+          class="m-4 lg:mx-4 my-6 md:my-0 hover:scale-105 duration-300 hover:text-teal-400"
+        >
+          <a href="#skills">Skills</a>
+        </li>
+        <li
+          class="m-4 lg:mx-4 my-6 md:my-0 hover:scale-105 duration-300 hover:text-teal-400"
+        >
+          <a href="#education">Education</a>
+        </li>
+        <li
+          class="m-4 lg:mx-4 my-6 md:my-0 hover:scale-105 duration-300 hover:text-teal-400"
+        >
+          <a href="#projects">Projects</a>
+        </li>
+        <li
+          class="m-4 lg:mx-4 my-6 md:my-0 hover:scale-105 duration-300 hover:text-teal-400"
+        >
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <div
+        class="md:hidden text-3xl cursor-pointer mx-8"
+        onclick="onToggleMenu(th
+        )"
+      >
+        <ion-icon
+          name="menu-outline"
+          class="cursor-pointer"
+          onclick="onToggleMenu(this)"
+        ></ion-icon>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+
+    <div
+      data-aos="zoom-in-down"
+      class="bg-gradient-to-br from-slate-900 via-slate-900 to-rose-900"
+    >
+      <div
+        class="flex justify-center items-center flex-col md:flex-row-reverse xl:min-h-screen md:mx-20 xl:mx-52 text-slate-100"
+      >
+        <img
+          src="./src/./img/biswanth.png"
+          alt="Biswanth"
+          class="max-md:mt-5 lg:ml-20 h-40 w-40 lg:h-[400px] lg:w-[400px] hover:scale-105 duration-300 rounded-full shadow-lg shadow-cyan-400/50"
+        />
+        <div class="p-6">
+          <span class="text-3xl lg:text-5xl mr-3">Hi, I'm</span>
+          <span class="text-cyan-400 font-extrabold text-3xl lg:text-5xl">
+            Biswanth
+          </span>
+
+          <h2 class="lg:text-3xl font-bold my-5 font-mono">
+            I am a<span class="typing font-semibold text-teal-500 ml-3"></span>
+          </h2>
+
+          <p
+            class="xl:text-lg my-3 lg:my-6 text-justify lg:text-justify max-w-screen-sm"
+          >
+            I am a Web Developer and Programmer. I am passionate about Web
+            Development and Programming. I am also a tech enthusiast and I love
+            to learn new technologies and always ready to learn new things.
+          </p>
+          <div class="flex my-5">
+            <a
+              href="https://www.linkedin.com/in/biswanth-pullakhandam-204289215/"
+              class="rounded-full text-lg flex items-center justify-center bg-slate-200 w-36 h-10 m-1 mr-2 xl:m-5 text-slate-900 duration-300 drop-shadow-2xl shadow-lg shadow-slate-200/50 hover:scale-90"
+            >
+              <i class="devicon-linkedin-plain colored m-2"></i>
+              LINKEDIN
+            </a>
+
+            <a
+              href="https://drive.google.com/file/d/1uk7YTnUZ19z_powAJUUWQK60QCCpx3hL/view?usp=drivesdk"
+              target="_blank"
+              class="rounded-full text-lg flex items-center justify-center bg-slate-200 w-36 h-10 m-1 ml-2 xl:m-5 text-slate-900 duration-300 drop-shadow-2xl shadow-lg shadow-slate-200/50 hover:scale-90"
+              ><i class="fa-solid fa-paperclip m-2"></i> RESUME
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+
+    <div class="mt-10" id="skills">
+      <h1
+        class="text-xl xl:text-3xl font-bold text-center lg:text-left lg:ml-60 text-gray-200 p-2 border-b-4 border-b-pink-400 w-48 mx-auto"
+      >
+        Tech Stack
+      </h1>
+      <div
+        data-aos="zoom-in-down"
+        class="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 mt-20 mx-2 lg:mx-52"
+      >
+        <div
+          class="flex justify-center items-center m-2 my-6 lg:my-10 hover:scale-110 duration-500 ease-in-out"
+        >
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+            class="p-1 h-20 md:h-24 drop-shadow-2xl"
+          />
+        </div>
+        <div
+          class="flex justify-center items-center m-2 my-6 lg:my-10 hover:scale-110 duration-500 ease-in-out"
+        >
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+            class="p-1 h-20 md:h-24 drop-shadow-2xl"
+          />
+        </div>
+        <div
+          class="flex justify-center items-center m-2 my-6 lg:my-10 hover:scale-110 duration-500 ease-in-out"
+        >
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            class="p-1 h-20 md:h-24 drop-shadow-2xl"
+          />
+        </div>
+        <div
+          class="flex justify-center items-center m-2 my-6 lg:my-10 hover:scale-110 duration-500 ease-in-out"
+        >
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            class="p-1 h-20 md:h-24 drop-shadow-2xl"
+          />
+        </div>
+        <div
+          class="flex justify-center items-center m-2 my-6 lg:my-10 hover:scale-110 duration-500 ease-in-out"
+        >
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
+            class="p-1 h-20 md:h-24 drop-shadow-2xl"
+          />
+        </div>
+        <div
+          class="flex justify-center items-center m-2 my-6 lg:my-10 hover:scale-110 duration-500 ease-in-out"
+        >
+          <img
+            src="./src/img/social/github.png"
+            class="p-1 h-20 md:h-24 drop-shadow-2xl"
+          />
+        </div>
+        <div
+          class="flex justify-center items-center m-2 my-6 lg:my-10 hover:scale-110 duration-500 ease-in-out"
+        >
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+            class="p-1 h-20 md:h-24 drop-shadow-2xl"
+          />
+        </div>
+        <div
+          class="flex justify-center items-center m-2 my-6 lg:my-10 hover:scale-110 duration-500 ease-in-out"
+        >
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+            class="p-1 h-20 md:h-24 drop-shadow-2xl"
+          />
+        </div>
+        <div
+          class="flex justify-center items-center m-2 my-6 lg:my-10 hover:scale-110 duration-500 ease-in-out"
+        >
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+            class="p-1 h-20 md:h-24 drop-shadow-2xl"
+          />
+        </div>
+        <div
+          class="flex justify-center items-center m-2 my-6 lg:my-10 hover:scale-110 duration-500 ease-in-out"
+        >
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+            class="p-1 h-20 md:h-24 drop-shadow-2xl"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Education Section -->
+
+    <div class="py-12 text-gray-100" id="education">
+      <div class="">
+        <h1
+          class="text-xl xl:text-3xl font-bold text-center lg:text-left lg:ml-60 text-gray-200 p-2 border-b-4 border-b-pink-400 w-48 mx-auto my-24"
+        >
+          Education
+        </h1>
+        <div class="mx-2 lg:mx-52 flex flex-col md:flex-row">
+          <div
+            data-aos="zoom-in-right"
+            class="flex items-center p-4 mb-10 lg:mb-0 lg:mr-20"
+          >
+            <div
+              class="inline-flex items-center justify-center h-20 w-20 lg:w-36 lg:h-36 bg-transparent mr-6 cursor-pointer"
+            >
+              <a href="https://www.nrtec.in/">
+                <img src="./src/img/Nec.jpg" />
+              </a>
+            </div>
+            <div>
+              <h3
+                class="text-teal-500 text-lg lg:text-3xl font-semibold leading-tight"
+              >
+                Computer Science & Engineering (B.tech)
+              </h3>
+              <p class="my-2 lg:text-lg">Narasaraopeta Engineering College</p>
+              <p class="my-2 lg:text-lg">2018 - 2022</p>
+              <!-- <p class="my-2 lg:text-lg">CGP: 7.0</p> -->
+            </div>
+          </div>
+          <div data-aos="zoom-in-left" class="flex items-center p-4">
+            <div
+              class="inline-flex items-center justify-center h-20 w-20 lg:w-36 lg:h-36 bg-transparent mr-6 cursor-pointer"
+            >
+              <a href="bieap.apcfss.in">
+                <img src="./src/img/interboard.jpeg" class="rounded-full" />
+              </a>
+            </div>
+            <div>
+              <h3
+                class="text-teal-500 text-lg lg:text-3xl font-semibold leading-tight"
+              >
+                12th (PCM)
+              </h3>
+              <p class="my-2 lg:text-lg">
+                Board of Intermediate Education, Andhra Pradesh
+              </p>
+              <p class="my-2 lg:text-lg">2016 - 2018</p>
+              <!-- <p class="my-2 lg:text-lg">CGP: 7.0</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+
+    <div class="my-20" id="projects">
+      <h1
+        class="text-xl xl:text-3xl font-bold text-center lg:text-left lg:ml-60 text-gray-200 p-2 border-b-4 border-b-pink-400 w-48 mx-auto"
+      >
+        Projects
+      </h1>
+
+      <div
+        class="my-20 flex flex-col gap-10 justify-center items-center lg:mx-52"
+      >
+        <!-- project country -->
+        <div
+          data-aos="zoom-in-left"
+          class="bg-slate-800 rounded-lg flex flex-col drop-shadow-2xl lg:h-96 w-[90%] lg:flex-row"
+        >
+          <img
+            src="./src/img/project/countriesAPI.webp"
+            alt="thehindu-clone"
+            class="rounded-lg h-52 lg:h-full lg:w-1/2 hover:scale-95 duration-500"
+          />
+
+          <div class="flex flex-col justify-center max-md:m-5 lg:mx-10">
+            <h1 class="text-slate-100 text-3xl my-3 font-bold">Country Book</h1>
+            <h1 class="text-slate-100">
+              Made a Book of All Countries using Rest Country API
+            </h1>
+            <div class="text-teal-500 flex flex-wrap my-4">
+              <p class="bg-transparent ring-2 ring-teal-500 px-3 w-auto m-3">
+                HTML
+              </p>
+              <p class="bg-transparent ring-2 ring-teal-500 px-3 w-auto m-3">
+                CSS
+              </p>
+              <p class="bg-transparent ring-2 ring-teal-500 px-3 w-auto m-3">
+                JAVASCRIPT
+              </p>
+              <!-- <p class="bg-transparent ring-2 p-3">HTML</p> -->
+            </div>
+            <div class="flex justify-center mt-4">
+              <a
+                href="https://github.com/pankajktech/Innomatics-Internship/tree/master/Country%20Book"
+                target="_blank"
+                class="text-3xl"
+                ><i
+                  class="fa-brands fa-github fa-l text-slate-400 mr-2 hover:text-slate-100"
+                ></i
+              ></a>
+              <a
+                href="https://country-book.netlify.app/"
+                target="_blank"
+                class="text-3xl"
+                ><i
+                  class="fa-solid fa-link text-slate-400 mx-4 hover:text-slate-100"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- project The Hindu Clone -->
+
+        <div
+          data-aos="zoom-in-right"
+          class="bg-slate-800 rounded-lg flex flex-col drop-shadow-2xl lg:h-96 w-[90%] lg:flex-row-reverse"
+        >
+          <img
+            src="./src/./img/project/TheHindu.webp"
+            alt="thehindu-clone"
+            class="rounded-lg h-52 lg:h-full lg:w-1/2 hover:scale-95 duration-500"
+          />
+
+          <div class="flex flex-col justify-center max-md:m-5 lg:mx-10">
+            <h1 class="text-slate-100 text-3xl my-3 font-bold">
+              The Hindu Clone
+            </h1>
+            <h1 class="text-slate-100">
+              Made a Hindu Epaper Clone using html and css
+            </h1>
+            <div class="text-teal-400 flex flex-wrap my-4">
+              <p class="bg-transparent ring-2 ring-teal-400 px-3 w-auto m-3">
+                HTML
+              </p>
+              <p class="bg-transparent ring-2 ring-teal-400 px-3 w-auto m-3">
+                TAILWIND CSS
+              </p>
+              <!-- <p class="bg-transparent ring-2 p-3">HTML</p> -->
+            </div>
+            <div class="flex justify-center mt-4">
+              <a
+                href="https://github.com/pankajktech/The-Hindu-Epaper-Clone"
+                target="_blank"
+                class="text-3xl"
+                ><i
+                  class="fa-brands fa-github fa-l text-slate-400 mr-2 hover:text-slate-100"
+                ></i
+              ></a>
+              <a
+                href="https://thehindu-clone.netlify.app/"
+                target="_blank"
+                class="text-3xl"
+                ><i
+                  class="fa-solid fa-link text-slate-400 mx-4 hover:text-slate-100"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- project Calculator -->
+
+        <div
+          data-aos="zoom-in-down"
+          class="bg-slate-800 rounded-lg flex flex-col drop-shadow-2xl lg:h-96 w-[90%] lg:flex-row"
+        >
+          <img
+            src="./src/./img/project/calculator.webp"
+            alt="thehindu-clone"
+            class="rounded-lg h-52 lg:h-full lg:w-1/2 hover:scale-95 duration-500"
+          />
+
+          <div class="flex flex-col justify-center max-md:m-5 lg:mx-10">
+            <h1 class="text-slate-100 text-3xl my-3 font-bold">Calculator</h1>
+            <h1 class="text-slate-100">
+              Simple Calculator using html, css and javascript
+            </h1>
+            <div class="text-teal-400 flex flex-wrap my-4">
+              <p class="bg-transparent ring-2 ring-teal-400 px-3 w-auto m-3">
+                HTML
+              </p>
+              <p class="bg-transparent ring-2 ring-teal-400 px-3 w-auto m-3">
+                CSS
+              </p>
+              <p class="bg-transparent ring-2 ring-teal-400 px-3 w-auto m-3">
+                JAVASCRIPT
+              </p>
+              <!-- <p class="bg-transparent ring-2 p-3">HTML</p> -->
+            </div>
+            <div class="flex justify-center mt-4">
+              <a
+                href="https://github.com/pankajktech/Calculator"
+                target="_blank"
+                class="text-3xl"
+                ><i
+                  class="fa-brands fa-github fa-l text-slate-400 mr-2 hover:text-slate-100"
+                ></i
+              ></a>
+              <a
+                href="https://pankajktech.github.io/Calculator/"
+                target="_blank"
+                class="text-3xl"
+                ><i
+                  class="fa-solid fa-link text-slate-400 mx-4 hover:text-slate-100"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact section -->
+    <div data-aos="zoom-in-down" class="" id="contact">
+      <h1
+        class="text-xl xl:text-3xl font-bold text-center lg:text-left lg:ml-60 text-gray-200 border-b-4 border-b-pink-400 w-48 mx-auto my-10"
+      >
+        Get in Touch
+      </h1>
+      <div
+        class="flex flex-col md:flex-row justify-center items-center lg:my-10 lg:mx-52"
+      >
+        <div
+          class="bg-slate-800 text-slate-100 lg:mr-10 w-[90%] lg:w-[30%] flex flex-col h-[480px] text-2xl drop-shadow-2xl border-b-2 border-b-sky-600 lg:border-none p-10 justify-center items-center rounded-lg"
+        >
+          <p class="mx-auto">Contact Information</p>
+
+          <div class="my-6">
+            <div class="my-8">
+              <i class="fa-solid fa-map-marker-alt fa-md"></i>
+              <label>Address:</label>
+              <span class="text-sky-500 hover:text-teal-700">
+                Hyderabad, India</span
+              >
+            </div>
+
+            <div class="my-8">
+              <i class="fa-solid fa-envelope fa-md"></i>
+              <label>Email:</label>
+              <a
+                href="mailto:charanpujala@gmail.com"
+                class="text-sky-500 hover:text-teal-700"
+                >biswanth.p2000@gmail.com</a
+              >
+            </div>
+          </div>
+          <div class="mx-auto mt-auto">
+            <a
+              href="https://github.com/Biswanthbiss"
+              target="_blank"
+              class="m-2 xl:m-4"
+              ><i
+                class="fa-brands fa-github text-3xl hover:scale-125 duration-300"
+              ></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/biswanth-pullakhandam-204289215"
+              target="_blank"
+              class="m-2 xl:m-4"
+              ><i
+                class="fa-brands fa-linkedin text-3xl hover:scale-125 duration-300 text-sky-700"
+              ></i
+            ></a>
+            <a
+              href="https://mobile.twitter.com/BiswanthBunny"
+              target="_blank"
+              class="m-2 xl:m-4"
+              ><i
+                class="fa-brands fa-twitter text-3xl hover:scale-125 duration-300 text-sky-500"
+              ></i
+            ></a>
+            <a
+              href="https://instagram.com/biswanth_bisss?igshid=ZDdkNTZiNTM="
+              target="_blank"
+              class="m-2 xl:m-4"
+              ><i
+                class="fa-brands fa-instagram text-3xl hover:scale-125 duration-300 text-red-500"
+              ></i
+            ></a>
+          </div>
+        </div>
+
+        <div
+          class="bg-slate-800 w-[90%] lg:w-[60%] h-[480px] lg:my-10 flex justify-center items-center drop-shadow-2xl rounded-lg"
+        >
+          <form onsubmit="sendEmail(); reset(); return false;">
+            <div class="flex flex-col mx-auto justify-center items-center">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter Your Name"
+                required
+                class="h-10 rounded-sm placeholder:text-slate-800 block focus:shadow-lg focus:shadow-blue-400 w-[300px] md:w-[600px] py-2 focus:outline-none focus:ring-border-gray-900 ring-1 ring-slate-400 px-4 focus:ring-1 focus:ring-slate-800 sm:text-sm my-3"
+              />
+
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter Your Email"
+                required
+                class="h-10 rounded-sm placeholder:text-slate-800 block focus:shadow-lg focus:shadow-blue-400 w-[300px] md:w-[600px] py-2 focus:outline-none focus:ring-border-gray-900 ring-1 ring-slate-400 px-4 focus:ring-1 focus:ring-slate-800 sm:text-sm my-3"
+              />
+
+              <textarea
+                name=""
+                rows="10"
+                aria-setsize="fixed"
+                id="message"
+                required
+                class="h-52 rounded-sm placeholder:text-slate-800 block focus:shadow-lg focus:shadow-blue-400 w-[300px] md:w-[600px] py-2 focus:outline-none focus:ring-border-gray-900 ring-1 ring-slate-400 px-4 focus:ring-1 focus:ring-slate-800 sm:text-sm my-3"
+                placeholder="Enter Your Message"
+              ></textarea>
+
+              <div class="mx-auto">
+                <input
+                  type="submit"
+                  value="Send"
+                  class="rounded-full text-2xl bg-white shadow-lg shadow-white/60 text-slate-900 w-[200px] lg:w-40 h-10 mx-auto my-6 cursor-pointer hover:scale-90 transition duration-300 ease-in-out"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+
+    <footer
+      class="text-center bg-slate-900 shadow-md shadow-slate-100 text-white xl:text-lg p-3"
+    >
+      <p class="text-xl">© Biswanth&hearts;</p>
+    </footer>
+
+    <!-- Script Section -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/632ef732fd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+      AOS.init(1000);
+      var typeData = new Typed(".typing", {
+        strings: [
+          "Web Developer",
+          "Open Source Contributor",
+          "Web Developer",
+          "Web Designer",
+          "Coder",
+        ],
+        loop: true,
+        typeSpeed: 80,
+        backSpeed: 80,
+        backDelay: 400,
+      });
+    </script>
+  </body>
+</html>
+ 
